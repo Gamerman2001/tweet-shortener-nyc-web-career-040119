@@ -56,10 +56,7 @@ end
 
 def selective_tweet_shortener(tweets)
   
-    if tweets.length >= 140 
-      # bulk_tweet_shortener(tweets)
-      return "hi"
-    end
+    tweets
   
 end 
 
