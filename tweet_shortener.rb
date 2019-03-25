@@ -56,7 +56,7 @@ end
 
 def selective_tweet_shortener(tweets)
   
-    tweets
+    tweets.length
   
 end 
 
