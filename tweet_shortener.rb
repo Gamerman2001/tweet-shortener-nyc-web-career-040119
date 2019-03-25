@@ -67,6 +67,6 @@ def shortened_tweet_truncator(tweets)
     word_substituter(tweets)
   else 
     trunc_word = word_substituter(tweets)
-    trunc_word.slice(0..140) + "..."
+    trunc_word[0..140] + "..."
   end 
 end 
