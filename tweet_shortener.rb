@@ -56,7 +56,7 @@ end
 
 def selective_tweet_shortener(tweets)
   
-    p tweets.class
+    word_substituter(tweets)
     
   
 end 
