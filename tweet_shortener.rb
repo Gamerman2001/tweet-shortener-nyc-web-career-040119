@@ -1,4 +1,3 @@
-require 'pry'
 # Write your code here.
 
 def word_substituter(sentence)
@@ -52,7 +51,6 @@ def bulk_tweet_shortener(tweets)
   end
 end
 
-# bulk_tweet_shortener(tweets)
 
 def selective_tweet_shortener(tweets)
   if tweets.length > 140
