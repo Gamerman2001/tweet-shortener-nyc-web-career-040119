@@ -55,11 +55,10 @@ end
 # bulk_tweet_shortener(tweets)
 
 def selective_tweet_shortener(tweets)
-  # binding.pry
-  tweets.each do |tweets|  
+  
     if tweets.length >= 140 
       bulk_tweet_shortener(tweets)
     end
-  end
+  
 end 
 
